@@ -8,10 +8,10 @@ Notebooks are bilingual (English / Portuguese).
 
 | Folder | Modules | Notebook | Topics |
 | --- | --- | --- | --- |
-| root | 1 and 2 | `Atividade01_HW1_HW2_ML_Zoomcamp_2026.ipynb` | NumPy, linear algebra and Pandas; linear regression from scratch, regularization, train/validation/test split, RMSE |
+| `01-02-regression/` | 1 and 2 | `Atividade01_HW1_HW2_ML_Zoomcamp_2026.ipynb` | NumPy, linear algebra and Pandas; linear regression from scratch, regularization, train/validation/test split, RMSE |
 | `03-classification/` | 3 | `Atividade03_HW3_ML_Zoomcamp_2026.ipynb` | Lead scoring: missing values, correlation matrix, mutual information, one-hot encoding, logistic regression, feature elimination, regularization |
 
-Note on layout: the modules 1 and 2 notebook stays at the repository root because its URL was submitted with those homeworks. Later modules live in their own folders.
+The file with the same name at the repository root is a one-cell placeholder: the modules 1 and 2 notebook was submitted from that URL, so the path still resolves and points to the new location.
 
 ## Data
 
