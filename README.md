@@ -33,11 +33,11 @@ pip install pandas numpy scikit-learn matplotlib jupyterlab
 ## Notes on methodology / Observações sobre metodologia
 
 **EN.**
-- Every split sets a fixed random seed before shuffling, so results are reproducible — but the seed is not the same across homeworks: modules 1–3 use `random_state=42`, module 4 uses `random_state=1`, exactly as each assignment specifies. The two sets of results are not comparable row-for-row, even where they share a dataset.
-- Encoders (`DictVectorizer`) are fit on the training data only and then applied to validation/test data — in module 4's cross-validation, this means refitting the encoder inside every fold, not once on the full training set.
+- Every split sets a fixed random seed before shuffling, so results are reproducible, but the seed is not the same across homeworks: modules 1–3 use `random_state=42`, module 4 uses `random_state=1`, exactly as each assignment specifies. The two sets of results are not comparable row-for-row, even where they share a dataset.
+- Encoders (`DictVectorizer`) are fit on the training data only and then applied to validation/test data, in module 4's cross-validation, this means refitting the encoder inside every fold, not once on the full training set.
 - Random row-level splits suit these datasets because each row is an independent lead. When rows are grouped by person, session or patient, the split should be done by group instead, or the metric will be inflated.
 
 **PT.**
-- Cada divisão fixa uma semente aleatória antes de embaralhar, então os resultados são reprodutíveis — mas a semente não é a mesma entre as atividades: os módulos 1–3 usam `random_state=42`, o módulo 4 usa `random_state=1`, exatamente como cada enunciado especifica. Os dois conjuntos de resultados não são comparáveis número a número, mesmo compartilhando uma base.
-- Os codificadores (`DictVectorizer`) são ajustados só nos dados de treino e depois aplicados à validação/teste — na validação cruzada do módulo 4, isso significa reajustar o codificador dentro de cada parte, não uma única vez no treino completo.
+- Cada divisão fixa uma semente aleatória antes de embaralhar, então os resultados são reprodutíveis, mas a semente não é a mesma entre as atividades: os módulos 1-3 usam `random_state=42`, o módulo 4 usa `random_state=1`, exatamente como cada enunciado especifica. Os dois conjuntos de resultados não são comparáveis número a número, mesmo compartilhando uma base.
+- Os codificadores (`DictVectorizer`) são ajustados só nos dados de treino e depois aplicados à validação/teste, na validação cruzada do módulo 4, isso significa reajustar o codificador dentro de cada parte, não uma única vez no treino completo.
 - Divisões aleatórias por linha são adequadas a essas bases porque cada linha é um lead independente. Quando as linhas são agrupadas por pessoa, sessão ou paciente, a divisão deveria ser feita por grupo, ou a métrica fica inflada.
