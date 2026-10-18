@@ -69,8 +69,8 @@ Kernel Jupyter registrado: **"Python (ML Zoomcamp 2026)"**
 - **Deploy:** flask, gunicorn, fastapi, uvicorn, boto3, mlflow
 - **ML extra:** xgboost, lightgbm
 - **Qualidade:** ruff, black, isort, pytest, pre-commit, mypy
-- **Deep Learning (opcional, instalar quando chegar a semana 8):**
-  `uv sync --extra dl` (tensorflow + torch — pesado, ~1.5GB+)
+- **Deep Learning (instalado):** tensorflow 2.21, torch 2.14
+  (Apple MPS/GPU disponível: `torch.backends.mps.is_available()` → True)
 
 ## Docker (Colima)
 
@@ -84,6 +84,8 @@ brew services start colima  # auto-start no login
 ```
 
 Recursos alocados: 2 CPU / 3 GB RAM / 30 GB disco (ajustável em `colima start --help`).
+Colima e Ollama estão configurados para iniciar automaticamente no login
+(`brew services start colima` / `brew services start ollama`).
 
 ## Git / GitHub
 
