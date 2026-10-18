@@ -1,0 +1,52 @@
+# === Python / uv ===
+.venv/
+__pycache__/
+*.py[cod]
+*.egg-info/
+.python-version
+.python-version.tmp
+
+# === uv / caches ==
+.uv/
+uv.toml.local
+
+# === Jupyter / Notebooks ==
+.ipynb_checkpoints/
+.ipynb_checkpoints/
+*.ipynb_checkpoints
+.ipynb_checkpoints/
+
+# === ML / Dados ===
+data/raw/
+*.parquet
+*.feather
+*.pkl
+*.joblib
+*.h5
+*.onnx
+mlruns/
+mlartifacts/
+models/
+
+# === Env / Secrest ===
+.env
+.env.*
+!.env.example
+*.pem
+*.key
+
+# === Editores / OS ===
+.vscode/
+.idea/
+.DS_Store
+*.swp
+*~
+
+# === Lint / Cache ===
+.ruff_cache/
+.pytest_cache/
+.mypy_cache/
+.coverage
+htmlcov/
+build/
+dist/
