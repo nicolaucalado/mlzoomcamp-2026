@@ -1,4 +1,4 @@
-# ML Zoomcamp 2026 — Nicolau Calado Jofilsan
+# ML Zoomcamp 2026 - Nicolau Calado Jofilsan
 
 Homeworks and projects for [DataTalks.Club's Machine Learning Zoomcamp 2026](https://github.com/DataTalksClub/machine-learning-zoomcamp), by **Nicolau Calado Jofilsan**.
 
