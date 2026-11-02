@@ -1,0 +1,19 @@
+﻿{
+    "kind_version":  "kind version 0.29.0",
+    "kubectl_client_version":  "Client Version: v1.34.1\r\nKustomize Version: v5.7.1",
+    "pipeline_sha256":  "1646bbdcd38d4f044da6b630c5b332c93a314245a8c21929011c42de51f629f1",
+    "q1_response":  {
+                        "conversion_probability":  0.769799,
+                        "conversion":  true
+                    },
+    "services_default":  "NAME         TYPE        CLUSTER-IP   EXTERNAL-IP   PORT(S)   AGE\r\nkubernetes   ClusterIP   10.96.0.1    \u003cnone\u003e        443/TCP   4s",
+    "pods":  "NAME                            READY   STATUS    RESTARTS   AGE\r\nsubscription-7d87ff6fb4-9fn55   1/1     Running   0          7s",
+    "service":  "NAME           TYPE        CLUSTER-IP      EXTERNAL-IP   PORT(S)   AGE\r\nsubscription   ClusterIP   10.96.173.165   \u003cnone\u003e        80/TCP    0s",
+    "q7_response":  {
+                        "conversion_probability":  0.769799,
+                        "conversion":  true
+                    },
+    "hpa":  "NAME               REFERENCE                 TARGETS              MINPODS   MAXPODS   REPLICAS   AGE\r\nsubscription-hpa   Deployment/subscription   cpu: \u003cunknown\u003e/20%   1         3         0          5s",
+    "q1_vs_q7_difference":  0.000000,
+    "status":  "ok"
+}
